@@ -73,7 +73,7 @@ fn App() -> Html {
         <div>
             <button onclick={increase}>{ "+1" }</button>
             <button onclick={increase_by_two}>{ "+2" }</button>
-            <button onclick={increase_or_decrease(counter.clone(), Action::AddThree, 3)}>{"-3"}</button>
+            <button onclick={increase_or_decrease(counter.clone(), Action::AddThree, 3)}>{"+3"}</button>
             <button onclick={decrease}>{ "-1" }</button>
             <button onclick={increase_or_decrease(counter.clone(), Action::SubtractTwo, -2)}>{"-2"}</button>
             <button onclick={increase_or_decrease(counter.clone(), Action::SubtractTwo, -3)}>{"-3"}</button>
